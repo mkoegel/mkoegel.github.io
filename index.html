@@ -10,7 +10,8 @@
 	<link rel="icon" href="favicon.ico" type="image/png" />
 
 	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e98552e6e6.js" crossorigin="anonymous"></script>
+	<!-- <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet"> -->
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<!-- <link rel="stylesheet" href="css/themes/indigo-white.css"> -->
@@ -26,10 +27,23 @@
 <body>
 	<main>
 		<div class="intro">Michael Koegel</div>
-		<div class="tagline">Human-centered Digital Transformation</div>
+		<div class="tagline">Human-centered Digital Transformation<br/>
+			Design Thinking | New Work | User Experience</div>
 		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
 		<div class="icons-social">
-			<a target="_blank" href="https://www.linkedin.com/in/michaelkoegel"><i class="fab fa-linkedin"></i></a>
+			<a target="_blank" href="#" class="cryptedmail"
+			data-name="michael"
+			data-domain="koegel"
+			data-tld="org"
+			onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
+			<i class="fas fa-paper-plane"></i></a>
+			<a target="_blank" href="#" class="cryptedphone"
+			data-countrycode="+49"
+			data-citycode="6232"
+			data-number="9654688"
+			onclick="window.location.href = 'tel:' + this.dataset.countrycode + this.dataset.citycode + this.dataset.number; return false;">
+			<i class="fas fa-phone"></i></a>
+			<a target="_blank" href="https://www.linkedin.com/in/michaelkoegel"><i class="fab fa-linkedin-in"></i></a>
 			<a target="_blank" href="https://www.xing.com/profile/Michael_Koegel3"><i class="fab fa-xing"></i></a>
 			<a target="_blank" href="https://twitter.com/konfusius"><i class="fab fa-twitter"></i></a>
 			<a target="_blank" href="https://instagram.com/dorfhipster"><i class="fab fa-instagram"></i></a>
