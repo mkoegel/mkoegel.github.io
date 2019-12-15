@@ -69,3 +69,27 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.impressummail:after {
+	content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
+}
+
+.impressumphone:after {
+	content: attr(data-countrycode) attr(data-citycode) attr(data-number); 
+}
+
+.impressumcontact:after {
+	content: attr(data-fullname) "; " attr(data-street) "; " attr(data-city); 
+}
+
+.impressumsteuerid:after {
+	content: attr(data-steueridcountry) attr(data-steueridnumber); 
+}
