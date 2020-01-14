@@ -28,6 +28,11 @@ html {
 	}
 }
 
+@font-face {
+    font-family: "Folk Solid";
+    src: url("../fonts/Folksolid.woff2") format("woff2"), url("../fonts/Folksolid.ttf")  format("truetype");
+}
+
 .icons-social i {
 	font-size: 3em;
 }
@@ -44,9 +49,13 @@ main {
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
+	font-family: 'Londrina Shadow', cursive;
 	font-size: 3.75em;
-	font-weight: 600;
+}
+
+main > .intro2 {
+	font-family: 'Folk Solid';
+	font-size: 4em;
 }
 
 main > .tagline {
