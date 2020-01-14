@@ -68,6 +68,11 @@ main > .tagline {
 	padding: 10px;
 }
 
+img {
+	border-radius: 50%;
+	height: 8em;
+  }
+
 .devto {
 	margin-bottom: -0.20rem;
 }
