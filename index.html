@@ -37,8 +37,29 @@
 
 <body>
 	<main>
-		<div class="pic"><img src="images/Illustration-Weiss-Quadratisch.svg" alt="Bild von Michael Koegel" /></div>
-		<div class="intro">Michael Koegel</div>
+		<!-- Slideshow container -->
+		<div>
+
+			<!-- Full-width images with number and caption text -->
+			<div class="mySlides">
+				<img src="images/Title-EN.svg"></div>
+			</div>
+
+			<div class="mySlides">
+				<img src="images/Promise-EN.svg">
+			</div>
+
+			<div class="mySlides">
+				<img src="images/Approach-EN.svg">
+			</div>
+
+			<div class="mySlides">
+				<img src="images/Methods-EN.svg">
+			</div>
+			<div class="mySlides">
+				<img src="images/Experience-EN.svg">
+			</div>
+		</div>
 		<div class="tagline">
 			Human-centered Digital Transformation<br />
 			Design Thinking | Agile | Experience Design</div>
@@ -60,6 +81,24 @@
 			<!-- <a target="_blank" href="https://medium.com/@mkoegel71"><i class="fab fa-medium"></i></a> -->
 			<!-- <a target="_blank" href="https://webzw0.tumblr.com"><i class="fab fa-tumblr"></i></a> -->
 		</div>
+
+		<script>
+			var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+} 
+		</script>
+	
 	</main>
 
 	<footer>
